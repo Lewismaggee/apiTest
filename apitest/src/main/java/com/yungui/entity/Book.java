@@ -29,6 +29,7 @@ public class Book {
 	public void setBookPrice(double bookPrice) {
 		this.bookPrice = bookPrice;
 	}
+	
 	@Override
 	public String toString() {
 		return "Book [bookId=" + bookId + ", bookName=" + bookName + ", bookAuthor=" + bookAuthor + ", bookPrice="
