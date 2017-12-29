@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2217" started-at="2017-12-28T01:22:40Z" finished-at="2017-12-28T01:22:42Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="2217" started-at="2017-12-28T01:22:40Z" finished-at="2017-12-28T01:22:42Z">
+      <class name="com.yungui.api.SearchBookApiTest">
+        <test-method status="PASS" signature="doLogin()[pri:0, instance:com.yungui.api.SearchBookApiTest@12cc05a]" name="doLogin" is-config="true" duration-ms="1682" started-at="2017-12-28T09:22:40Z" finished-at="2017-12-28T09:22:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="testSearchBook(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:com.yungui.api.SearchBookApiTest@12cc05a]" name="testSearchBook" duration-ms="412" started-at="2017-12-28T09:22:42Z" data-provider="searchBookData" finished-at="2017-12-28T09:22:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[liudao]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchBook -->
+        <test-method status="PASS" signature="testSearchBook(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:com.yungui.api.SearchBookApiTest@12cc05a]" name="testSearchBook" duration-ms="28" started-at="2017-12-28T09:22:42Z" data-provider="searchBookData" finished-at="2017-12-28T09:22:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[liudao]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchBook -->
+        <test-method status="PASS" signature="testSearchBook(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:com.yungui.api.SearchBookApiTest@12cc05a]" name="testSearchBook" duration-ms="19" started-at="2017-12-28T09:22:42Z" data-provider="searchBookData" finished-at="2017-12-28T09:22:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[liudao]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Thinking]]>
+              </value>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchBook -->
+        <test-method status="PASS" signature="testSearchBook(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:com.yungui.api.SearchBookApiTest@12cc05a]" name="testSearchBook" duration-ms="15" started-at="2017-12-28T09:22:42Z" data-provider="searchBookData" finished-at="2017-12-28T09:22:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[liudao]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[100.00]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchBook -->
+        <test-method status="PASS" signature="testSearchBookWithoutUser()[pri:0, instance:com.yungui.api.SearchBookApiTest@12cc05a]" name="testSearchBookWithoutUser" duration-ms="25" started-at="2017-12-28T09:22:42Z" finished-at="2017-12-28T09:22:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchBookWithoutUser -->
+      </class> <!-- com.yungui.api.SearchBookApiTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
