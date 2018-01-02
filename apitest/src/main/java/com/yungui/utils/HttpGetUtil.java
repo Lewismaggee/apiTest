@@ -36,4 +36,11 @@ public class HttpGetUtil {
 		}
 		return responseStr;
 	}
+	
+	public static void main(String[] args) {
+		String url = "http://www.baidu.com";
+		HttpGetUtil getUtil = new HttpGetUtil();
+		String resStr = getUtil.doGet(url);
+		System.out.println(resStr);
+	}
 }
