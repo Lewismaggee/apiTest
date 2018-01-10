@@ -30,7 +30,7 @@ public class SearchBookApiTest {
 			{"liudao",null,null,null,null,5},
 			{"liudao","3",null,null,null,1},
 			{"liudao",null,"Thinking",null,null,4},
-			{"liudao",null,null,null,"100.00",2}
+			{"liudao",null,null,null,"100.00",1}
 		};
 	}
 	
