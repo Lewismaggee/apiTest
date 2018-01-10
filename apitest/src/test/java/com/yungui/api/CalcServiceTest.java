@@ -9,22 +9,23 @@ import javax.xml.soap.SOAPMessage;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+import com.yungui.dataprovider.ApiData;
 import com.yungui.utils.CsvUtil;
 import com.yungui.utils.SoapUtil;
 
 public class CalcServiceTest {
 	
-	@DataProvider(name="plusTestData")
+	/*@DataProvider(name="plusTestData")
 	public Object[][] createData(){
-		/*return new Object[][] {
+		return new Object[][] {
 			{"10","20","30"},
 			{"40","50","90"},
 			{"-10","-20","-30"}
-		};*/
+		};
 		return CsvUtil.readCsv("plusTestData.csv");
-	}
+	}*/
 	
-	@Test(dataProvider="plusTestData")
+	@Test(dataProvider="plusTestData",dataProviderClass=ApiData.class)
 	public void testPlus(String x, String y, String expected) {
 		URL url = null;
 		String actual = null;
