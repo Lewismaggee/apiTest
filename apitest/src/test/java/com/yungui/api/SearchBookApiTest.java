@@ -15,6 +15,7 @@ import org.testng.annotations.Test;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import com.yungui.dataprovider.ApiData;
 import com.yungui.entity.Authorization;
 import com.yungui.entity.SearchBookError;
 import com.yungui.entity.SearchBookResult;
@@ -47,7 +48,7 @@ public class SearchBookApiTest {
 		authorization = gson.fromJson(responseStr, Authorization.class);
 	}
 	
-	@Test(dataProvider="searchBookData")
+	@Test(dataProvider="searchBookData",dataProviderClass=ApiData.class)
 	public void testSearchBook(String user,String id,String name,String author,String price,int count) {
 		Gson gson = new GsonBuilder().create();
 		String url = "http://localhost:8080/pink_api/sbook";

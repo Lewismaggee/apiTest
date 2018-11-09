@@ -3,14 +3,11 @@ package com.yungui.api;
 import static org.testng.Assert.assertEquals;
 import java.net.MalformedURLException;
 import java.net.URL;
-import javax.xml.soap.SOAPException;
 import javax.xml.soap.SOAPMessage;
 
-import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import com.yungui.dataprovider.ApiData;
-import com.yungui.utils.CsvUtil;
 import com.yungui.utils.SoapUtil;
 
 public class CalcServiceTest {
@@ -107,6 +104,8 @@ public class CalcServiceTest {
 			e.printStackTrace();
 		} 
 		assertEquals(actual, expected);*/
+		
+		
 		 
 	}
 }

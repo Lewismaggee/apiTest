@@ -19,8 +19,8 @@ public class PayServerTest {
 	@Test
 	public void testPay() {
 		UserPay userPay = new UserPay();
-		userPay.setName("Lewis001");
-		userPay.setCard("card10010");
+		userPay.setName("Lewis002");
+		userPay.setCard("200010");
 		userPay.setMoney(100.10);
 		String expected = "ok";
 		try {

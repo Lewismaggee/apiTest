@@ -3,6 +3,7 @@
 	<test name="Search book api function test">
 		<classes>
 			<class name="com.yungui.api.SearchBookApiTest"></class>
+			<class name="com.yungui.api.CalcServiceTest"></class>
 		</classes>
 	</test>
 </suite>
