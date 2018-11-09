@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" verbose="3" name="Failed suite [suite1]">
+  <test verbose="3" name="Search book api function test(failed)">
+    <classes>
+      <class name="com.yungui.api.CalcServiceTest">
+        <methods>
+          <include name="testPlus" invocation-numbers="0 1 2 3 4"/>
+        </methods>
+      </class> <!-- com.yungui.api.CalcServiceTest -->
+      <class name="com.yungui.api.SearchBookApiTest">
+        <methods>
+          <include name="doLogin"/>
+          <include name="testSearchBook"/>
+          <include name="testSearchBookWithoutUser"/>
+        </methods>
+      </class> <!-- com.yungui.api.SearchBookApiTest -->
+    </classes>
+  </test> <!-- Search book api function test(failed) -->
+</suite> <!-- Failed suite [suite1] -->
