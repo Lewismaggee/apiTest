@@ -1,35 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1440" started-at="2018-11-09T08:52:50Z" finished-at="2018-11-09T08:52:51Z">
+  <suite name="Default suite" duration-ms="1516" started-at="2018-12-06T03:21:13Z" finished-at="2018-12-06T03:21:14Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="1440" started-at="2018-11-09T08:52:50Z" finished-at="2018-11-09T08:52:51Z">
-      <class name="com.yungui.apis.CreateKdybgOrderTest">
-        <test-method status="PASS" signature="testCreateKdybgOrder(long)[pri:0, instance:com.yungui.apis.CreateKdybgOrderTest@bd1b6a]" name="testCreateKdybgOrder" duration-ms="1369" started-at="2018-11-09T16:52:50Z" data-provider="createKdybgOrderData" finished-at="2018-11-09T16:52:51Z">
+    <test name="Default test" duration-ms="1516" started-at="2018-12-06T03:21:13Z" finished-at="2018-12-06T03:21:14Z">
+      <class name="com.yungui.site.apis.AllotPostmanCellsTest">
+        <test-method status="PASS" signature="testAllotPostmanCells(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.yungui.site.apis.AllotPostmanCellsTest@3d2c72]" name="testAllotPostmanCells" duration-ms="1464" started-at="2018-12-06T11:21:13Z" data-provider="alltoPostmanCellsTestData" finished-at="2018-12-06T11:21:14Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[1035]]>
+                <![CDATA[26861]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2018-03-20 23:59:59]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[18155402315]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[655051]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[962895708473417728]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[B01-10]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCreateKdybgOrder -->
-        <test-method status="PASS" signature="testCreateKdybgOrder(long)[pri:0, instance:com.yungui.apis.CreateKdybgOrderTest@bd1b6a]" name="testCreateKdybgOrder" duration-ms="21" started-at="2018-11-09T16:52:51Z" data-provider="createKdybgOrderData" finished-at="2018-11-09T16:52:51Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1041]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCreateKdybgOrder -->
-      </class> <!-- com.yungui.apis.CreateKdybgOrderTest -->
+        </test-method> <!-- testAllotPostmanCells -->
+      </class> <!-- com.yungui.site.apis.AllotPostmanCellsTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -1,20 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite thread-count="-1" guice-stage="DEVELOPMENT" verbose="3" name="Failed suite [suite1]">
-  <test verbose="3" name="Search book api function test(failed)">
+  <test verbose="3" name="api test(failed)">
     <classes>
-      <class name="com.yungui.api.CalcServiceTest">
+      <class name="com.yungui.apis.SynchroDataToChinanetExceptionTest">
         <methods>
-          <include name="testPlus" invocation-numbers="0 1 2 3 4"/>
+          <include name="testSynchroDataToChinanetException"/>
         </methods>
-      </class> <!-- com.yungui.api.CalcServiceTest -->
-      <class name="com.yungui.api.SearchBookApiTest">
-        <methods>
-          <include name="doLogin"/>
-          <include name="testSearchBook"/>
-          <include name="testSearchBookWithoutUser"/>
-        </methods>
-      </class> <!-- com.yungui.api.SearchBookApiTest -->
+      </class> <!-- com.yungui.apis.SynchroDataToChinanetExceptionTest -->
     </classes>
-  </test> <!-- Search book api function test(failed) -->
+  </test> <!-- api test(failed) -->
 </suite> <!-- Failed suite [suite1] -->

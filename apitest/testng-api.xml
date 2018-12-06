@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="多个suite测试" verbose="1" preserve-order="true" parallel="false">
+	<suite-files>
+		<suite-file path="site-service.xml"></suite-file>
+		<suite-file path="kdybg-service.xml"></suite-file>
+	</suite-files>
+	
+</suite>

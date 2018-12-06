@@ -16,6 +16,7 @@
 				<configuration>
 					<source>1.8</source>
 					<target>1.8</target>
+					<encoding>utf8</encoding>
 				</configuration>
 			</plugin>
 			<plugin>
@@ -23,7 +24,9 @@
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>2.20.1</version>
 				<configuration>
-					<suiteXmlFiles>testngDemo01.xml</suiteXmlFiles>
+					<!-- <suiteXmlFiles>kdybg-service.xml</suiteXmlFiles>
+					<suiteXmlFiles>site-service.xml</suiteXmlFiles> -->
+					<suiteXmlFiles>testng-api.xml</suiteXmlFiles>
 				</configuration>
 			</plugin>
 		</plugins>

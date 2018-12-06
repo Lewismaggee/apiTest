@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="PostmanApi" verbose="3">
+	<test name="kdybg api test" preserve-order="true">
+		<classes>
+			<class name="com.yungui.kdybg.apis.CreateKdybgOrderTest"></class>
+			<class name="com.yungui.kdybg.apis.DelDeviceIntendTest"></class>
+			<class name="com.yungui.kdybg.apis.InitColumnConfigByDeivceIdTest"></class>
+			<class name="com.yungui.kdybg.apis.GetDeviceIntendListTest"></class>
+			<class name="com.yungui.kdybg.apis.JudgePostmanPackTest"></class>
+			<class name="com.yungui.kdybg.apis.PackTerminalTest"></class>
+			<class name="com.yungui.kdybg.apis.MergeConfigTest"></class>
+			<class name="com.yungui.kdybg.apis.SynchroDataToChinanetExceptionTest"></class>
+			<class name="com.yungui.kdybg.apis.GetTerminalPostmanPackListTest"></class>
+			<class name="com.yungui.kdybg.apis.GetPostmanPackOutTradeNoTest"></class>
+			<class name="com.yungui.kdybg.apis.UpdateSitePostmanPackMonthUseRateTest"></class>
+			<class name="com.yungui.kdybg.apis.GetPostmanDeviceListForWechatTest"></class>
+			<class name="com.yungui.kdybg.apis.GetTerminalPostmanPackTest"></class>
+			<class name="com.yungui.kdybg.apis.DeleteTerminalPostmanPackByIdTest"></class>
+			<class name="com.yungui.kdybg.apis.GetTerminalPostmanPackByIdTest"></class>
+			<class name="com.yungui.kdybg.apis.GetPostmanPackListTest"></class>
+			<class name="com.yungui.kdybg.apis.GetPostmanDeviceListTest"></class>
+			<class name="com.yungui.kdybg.apis.GetChinanetExceptionTerminalByDoorIdsTest"></class>
+			<class name="com.yungui.kdybg.apis.GetPreOpenTimeByDeviceIdAndTerminalCodesTest"></class>
+			
+			<class name="com.yungui.kdybg.apis.UserQueryTest"></class>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,179 @@
+<html>
+<head>
+<title>TestNG:  site-service api test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>site-service api test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>20/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Dec 05 16:35:17 CST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>3 seconds (3413 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.yungui.site.apis.AllotPostmanCellsTest.testAllotPostmanCells()'><b>testAllotPostmanCells</b><br>Test class: com.yungui.site.apis.AllotPostmanCellsTest<br>Parameters: 26861, 2, 2018-03-20 23:59:59, 18155402315, 655051, 962895708473417728, B01-10</td>
+<td></td>
+<td>0</td>
+<td>com.yungui.site.apis.AllotPostmanCellsTest@1139829</td></tr>
+<tr>
+<td title='com.yungui.site.apis.BreakDeviceByDeviceCodeTest.testBreakDeviceByDeviceCode()'><b>testBreakDeviceByDeviceCode</b><br>Test class: com.yungui.site.apis.BreakDeviceByDeviceCodeTest<br>Parameters: 85DBE3C0763008E2, 227</td>
+<td></td>
+<td>0</td>
+<td>com.yungui.site.apis.BreakDeviceByDeviceCodeTest@1597028</td></tr>
+<tr>
+<td title='com.yungui.site.apis.CancelCellTest.testCancelCell()'><b>testCancelCell</b><br>Test class: com.yungui.site.apis.CancelCellTest<br>Parameters: 1000, 723064820341014528, B, 03, -1</td>
+<td></td>
+<td>0</td>
+<td>com.yungui.site.apis.CancelCellTest@69db50</td></tr>
+<tr>
+<td title='com.yungui.site.apis.cancelDevicePackCellTest.testCancelDevicePackCell()'><b>testCancelDevicePackCell</b><br>Test class: com.yungui.site.apis.cancelDevicePackCellTest<br>Parameters: 1031448576146829312</td>
+<td></td>
+<td>0</td>
+<td>com.yungui.site.apis.cancelDevicePackCellTest@fbca5a</td></tr>
+<tr>
+<td title='com.yungui.site.apis.ClearDeviceCellItemInfoTest.testClearDeviceCellItemInfo()'><b>testClearDeviceCellItemInfo</b><br>Test class: com.yungui.site.apis.ClearDeviceCellItemInfoTest<br>Parameters: 42999</td>
+<td></td>
+<td>0</td>
+<td>com.yungui.site.apis.ClearDeviceCellItemInfoTest@17cc17c</td></tr>
+<tr>
+<td title='com.yungui.site.apis.GetCellNumsByUserAccountTest.testGetCellNumsByUserAccount()'><b>testGetCellNumsByUserAccount</b><br>Test class: com.yungui.site.apis.GetCellNumsByUserAccountTest<br>Parameters: 15187, 15506250476</td>
+<td></td>
+<td>1</td>
+<td>com.yungui.site.apis.GetCellNumsByUserAccountTest@adbc9d</td></tr>
+<tr>
+<td title='com.yungui.site.apis.GetDeviceCellByCellIdTest.testGetDeviceCellByCellId()'><b>testGetDeviceCellByCellId</b><br>Test class: com.yungui.site.apis.GetDeviceCellByCellIdTest<br>Parameters: 1204869</td>
+<td></td>
+<td>0</td>
+<td>com.yungui.site.apis.GetDeviceCellByCellIdTest@1662a0b</td></tr>
+<tr>
+<td title='com.yungui.site.apis.GetDeviceCellByCellIdTest.testGetDeviceCellByCellId()'><b>testGetDeviceCellByCellId</b><br>Test class: com.yungui.site.apis.GetDeviceCellByCellIdTest<br>Parameters: 85291905</td>
+<td></td>
+<td>0</td>
+<td>com.yungui.site.apis.GetDeviceCellByCellIdTest@1662a0b</td></tr>
+<tr>
+<td title='com.yungui.site.apis.GetDeviceCellByCellIdTest.testGetDeviceCellByCellId()'><b>testGetDeviceCellByCellId</b><br>Test class: com.yungui.site.apis.GetDeviceCellByCellIdTest<br>Parameters: 85293299</td>
+<td></td>
+<td>0</td>
+<td>com.yungui.site.apis.GetDeviceCellByCellIdTest@1662a0b</td></tr>
+<tr>
+<td title='com.yungui.site.apis.GetDevicePackCellTest.testGetDevicePackCell()'><b>testGetDevicePackCell</b><br>Test class: com.yungui.site.apis.GetDevicePackCellTest<br>Parameters: 42990, 2792, 2792, 586443, 13817564282, 2018-09-27 23:59:59, 1031360213091905536</td>
+<td></td>
+<td>0</td>
+<td>com.yungui.site.apis.GetDevicePackCellTest@1fbd92c</td></tr>
+<tr>
+<td title='com.yungui.site.apis.GetDevicePackCellTest.testGetDevicePackCell()'><b>testGetDevicePackCell</b><br>Test class: com.yungui.site.apis.GetDevicePackCellTest<br>Parameters: 42991, 2792, 2792, 586443, 13817564282, 2018-09-27 23:59:59, 1031360213091905536</td>
+<td></td>
+<td>0</td>
+<td>com.yungui.site.apis.GetDevicePackCellTest@1fbd92c</td></tr>
+<tr>
+<td title='com.yungui.site.apis.GetDisableCellsByDeviceIdTest.testGetDisableCellsByDeviceId()'><b>testGetDisableCellsByDeviceId</b><br>Test class: com.yungui.site.apis.GetDisableCellsByDeviceIdTest<br>Parameters: 15187</td>
+<td></td>
+<td>0</td>
+<td>com.yungui.site.apis.GetDisableCellsByDeviceIdTest@1c27493</td></tr>
+<tr>
+<td title='com.yungui.site.apis.GetSiteExpressPricesTest.testGetSiteExpressPrices()'><b>testGetSiteExpressPrices</b><br>Test class: com.yungui.site.apis.GetSiteExpressPricesTest<br>Parameters: 15187</td>
+<td></td>
+<td>0</td>
+<td>com.yungui.site.apis.GetSiteExpressPricesTest@482e36</td></tr>
+<tr>
+<td title='com.yungui.site.apis.GetSiteSetBySiteIdTest.testGetSiteSetBySiteId()'><b>testGetSiteSetBySiteId</b><br>Test class: com.yungui.site.apis.GetSiteSetBySiteIdTest<br>Parameters: 26861</td>
+<td></td>
+<td>0</td>
+<td>com.yungui.site.apis.GetSiteSetBySiteIdTest@967906</td></tr>
+<tr>
+<td title='com.yungui.site.apis.HeartBeatTest.testHeartBeat()'><b>testHeartBeat</b><br>Test class: com.yungui.site.apis.HeartBeatTest<br>Parameters: 15187, 4</td>
+<td></td>
+<td>0</td>
+<td>com.yungui.site.apis.HeartBeatTest@18dfcc1</td></tr>
+<tr>
+<td title='com.yungui.site.apis.OccupyCellTest.testOccupyCell()'><b>testOccupyCell</b><br>Test class: com.yungui.site.apis.OccupyCellTest<br>Parameters: 15187, 1, 0, 983579811920273408, 13456780000</td>
+<td></td>
+<td>0</td>
+<td>com.yungui.site.apis.OccupyCellTest@19f7dcf</td></tr>
+<tr>
+<td title='com.yungui.site.apis.OnlineDeviceByDeviceCodeTest.testOnlineDeviceByDeviceCode()'><b>testOnlineDeviceByDeviceCode</b><br>Test class: com.yungui.site.apis.OnlineDeviceByDeviceCodeTest<br>Parameters: 85DBE3C0763008E2, 227</td>
+<td></td>
+<td>0</td>
+<td>com.yungui.site.apis.OnlineDeviceByDeviceCodeTest@7ddf94</td></tr>
+<tr>
+<td title='com.yungui.site.apis.ReleaseCellTest.testReleaseCell()'><b>testReleaseCell</b><br>Test class: com.yungui.site.apis.ReleaseCellTest<br>Parameters: 85295856, 1069787572165152768</td>
+<td></td>
+<td>0</td>
+<td>com.yungui.site.apis.ReleaseCellTest@1e2d654</td></tr>
+<tr>
+<td title='com.yungui.site.apis.UploadDeviceConfigTest.testUploadDeviceConfig()'><b>testUploadDeviceConfig</b><br>Test class: com.yungui.site.apis.UploadDeviceConfigTest<br>Parameters: 950D31456D28119E, COM1, 3, 1, A, 01, 1, 1, YG03_16_MAIN, 1, 0, 0</td>
+<td></td>
+<td>0</td>
+<td>com.yungui.site.apis.UploadDeviceConfigTest@1bd4fdd</td></tr>
+<tr>
+<td title='com.yungui.site.apis.UploadExceptionCellsTest.testUploadExceptionCells()'><b>testUploadExceptionCells</b><br>Test class: com.yungui.site.apis.UploadExceptionCellsTest<br>Parameters: 1972943, 2</td>
+<td></td>
+<td>0</td>
+<td>com.yungui.site.apis.UploadExceptionCellsTest@3191a6</td></tr>
+</table><p>
+</body>
+</html>

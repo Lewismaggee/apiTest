@@ -1,0 +1,49 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="SiteApi" verbose="3">
+	<test name="site-service api test" preserve-order="true">
+		<classes>
+			<class name="com.yungui.site.apis.GetCellNumsByUserAccountTest"></class>
+			<class name="com.yungui.site.apis.UploadExceptionCellsTest"></class>
+			<class name="com.yungui.site.apis.AllotPostmanCellsTest"></class>
+			<class name="com.yungui.site.apis.BreakDeviceByDeviceCodeTest"></class>
+			<class name="com.yungui.site.apis.CancelCellTest"></class>
+			<class name="com.yungui.site.apis.cancelDevicePackCellTest"></class>
+			<class name="com.yungui.site.apis.ClearDeviceCellItemInfoTest"></class>
+			<class name="com.yungui.site.apis.GetDeviceCellByCellIdTest"></class>
+			<class name="com.yungui.site.apis.GetDevicePackCellTest"></class>
+			<class name="com.yungui.site.apis.GetDisableCellsByDeviceIdTest"></class>
+			<class name="com.yungui.site.apis.GetSiteExpressPricesTest"></class>
+			<class name="com.yungui.site.apis.GetSiteSetBySiteIdTest"></class>
+			<class name="com.yungui.site.apis.HeartBeatTest"></class>
+			<class name="com.yungui.site.apis.OccupyCellTest"></class>
+			<class name="com.yungui.site.apis.OnlineDeviceByDeviceCodeTest"></class>
+			<class name="com.yungui.site.apis.ReleaseCellTest"></class>
+			<class name="com.yungui.site.apis.UploadDeviceConfigTest"></class>
+		</classes>
+	</test>
+	<!-- <test name="kdybg-service api test" preserve-order="true">
+		<classes>
+			<class name="com.yungui.kdybg.apis.CreateKdybgOrderTest"></class>
+			<class name="com.yungui.kdybg.apis.DelDeviceIntendTest"></class>
+			<class name="com.yungui.kdybg.apis.InitColumnConfigByDeivceIdTest"></class>
+			<class name="com.yungui.kdybg.apis.GetDeviceIntendListTest"></class>
+			<class name="com.yungui.kdybg.apis.JudgePostmanPackTest"></class>
+			<class name="com.yungui.kdybg.apis.PackTerminalTest"></class>
+			<class name="com.yungui.kdybg.apis.MergeConfigTest"></class>
+			<class name="com.yungui.kdybg.apis.SynchroDataToChinanetExceptionTest"></class>
+			<class name="com.yungui.kdybg.apis.GetTerminalPostmanPackListTest"></class>
+			<class name="com.yungui.kdybg.apis.GetPostmanPackOutTradeNoTest"></class>
+			<class name="com.yungui.kdybg.apis.UpdateSitePostmanPackMonthUseRateTest"></class>
+			<class name="com.yungui.kdybg.apis.GetPostmanDeviceListForWechatTest"></class>
+			<class name="com.yungui.kdybg.apis.GetTerminalPostmanPackTest"></class>
+			<class name="com.yungui.kdybg.apis.DeleteTerminalPostmanPackByIdTest"></class>
+			<class name="com.yungui.kdybg.apis.GetTerminalPostmanPackByIdTest"></class>
+			<class name="com.yungui.kdybg.apis.GetPostmanPackListTest"></class>
+			<class name="com.yungui.kdybg.apis.GetPostmanDeviceListTest"></class>
+			<class name="com.yungui.kdybg.apis.GetChinanetExceptionTerminalByDoorIdsTest"></class>
+			<class name="com.yungui.kdybg.apis.GetPreOpenTimeByDeviceIdAndTerminalCodesTest"></class>
+			
+			<class name="com.yungui.kdybg.apis.UserQueryTest"></class>
+		</classes>
+	</test> -->
+</suite>

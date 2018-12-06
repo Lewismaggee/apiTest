@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" verbose="3" name="Failed suite [PostmanApi]">
+  <test verbose="3" name="kdybg api test(failed)">
+    <classes>
+      <class name="com.yungui.kdybg.apis.JudgePostmanPackTest">
+        <methods>
+          <include name="testJudgePostmanPack" invocation-numbers="7"/>
+        </methods>
+      </class> <!-- com.yungui.kdybg.apis.JudgePostmanPackTest -->
+      <class name="com.yungui.kdybg.apis.GetPreOpenTimeByDeviceIdAndTerminalCodesTest">
+        <methods>
+          <include name="testGetPreOpenTime" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.yungui.kdybg.apis.GetPreOpenTimeByDeviceIdAndTerminalCodesTest -->
+      <class name="com.yungui.kdybg.apis.SynchroDataToChinanetExceptionTest">
+        <methods>
+          <include name="testSynchroDataToChinanetException"/>
+        </methods>
+      </class> <!-- com.yungui.kdybg.apis.SynchroDataToChinanetExceptionTest -->
+    </classes>
+  </test> <!-- kdybg api test(failed) -->
+</suite> <!-- Failed suite [PostmanApi] -->

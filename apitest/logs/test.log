@@ -1,0 +1,4 @@
+11:21:14.675 [main] INFO  com.yungui.site.apis.AllotPostmanCellsTest - jsresult:{"class":"com.yung.common.DubboResponse","status":"SUCCESS"}
+11:21:14.698 [main] INFO  com.yungui.site.apis.AllotPostmanCellsTest - valid test case
+11:21:14.698 [main] INFO  com.yungui.site.apis.AllotPostmanCellsTest - case execute success
+11:21:14.699 [main] INFO  com.yungui.site.apis.AllotPostmanCellsTest - ========result:{result=null, warningMsg=null, errorCode=null, successMsg=null, class=com.yung.common.DubboResponse, status=SUCCESS, errorMsg=null}
